@@ -17,7 +17,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\\.js$/,               // Регулярное выражение для вытора JS-файлов
+        test: /\\.js$/,               // Регулярное выражение для выбора JS-файлов
         exclude: /(node_modules)/,    // Исключение директории node_modules
         use: ['babel-loader']         // Указываем, какой лоадер использовать
       }
